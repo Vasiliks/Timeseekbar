@@ -1,0 +1,8 @@
+<keymap>
+	<map context="InfobarSeekActions">
+		<key id="KEY_LEFT" mapto="seekBackManual" flags="b" />
+		<key id="KEY_RIGHT" mapto="seekFwdManual" flags="b" />
+		<key id="KEY_REWIND" mapto="seekBackManual" flags="l" />
+		<key id="KEY_FASTFORWARD" mapto="seekFwdManual" flags="l" />
+	</map>
+</keymap>

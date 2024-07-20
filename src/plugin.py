@@ -211,7 +211,7 @@ class TimeSeekBar(ConfigListScreen, Screen):
 				position = self.seek.getPlayPosition()
 				if self.length and position:
 					if int(position[1]) > 0:
-						if float(self.length[1]) <> 0:
+						if float(self.length[1]) != 0:
 							self.percent = float(position[1]) * 100.0 / float(self.length[1])
 						else:
 							self.close()

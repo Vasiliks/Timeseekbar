@@ -230,6 +230,7 @@ class TimeSeekBar(ConfigListScreen, Screen):
 		self["time"] = Label()
 		self["actions"] = ActionMap(["WizardActions", "ColorActions", "MenuActions", "NumberActions"],
 		{"back": self.exit,
+		 "ok": self.keyOK,
 		 "menu": self.keyMenu,
 		 "red": self.goto25percent,
 		 "green": self.goto33percent,
